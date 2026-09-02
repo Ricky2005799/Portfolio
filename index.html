@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RICKY | Developer Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Remix Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+
+  <!-- Animated Grid Background -->
+  <div class="grid-bg"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <span>R</span>
+    </div>
+
+    <nav>
+      <a href="#home" class="nav-link active">
+        <i class="ri-home-5-line"></i>
+        <span>Home</span>
+      </a>
+
+      <a href="#about" class="nav-link">
+        <i class="ri-user-line"></i>
+        <span>About</span>
+      </a>
+
+      <a href="#skills" class="nav-link">
+        <i class="ri-code-s-slash-line"></i>
+        <span>Skills</span>
+      </a>
+
+      <a href="#projects" class="nav-link">
+        <i class="ri-layout-grid-line"></i>
+        <span>Projects</span>
+      </a>
+
+      <a href="#contact" class="nav-link">
+        <i class="ri-mail-line"></i>
+        <span>Contact</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+
+        <h1>
+          I'M <span>RICKY</span>
+        </h1>
+
+        <h2>
+          <span id="typing"></span>
+        </h2>
+
+        <p class="hero-desc">
+          Building futuristic web experiences with modern technologies,
+          animations, and scalable full-stack applications.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+          </a>
+
+          <a href="resume.pdf" class="btn btn-outline">
+            Download Resume
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Floating Circle -->
+      <div class="hero-shape"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+
+      <div class="section-title">
+        <span>01</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-container">
+
+        <div class="about-text">
+          <p>
+            I'm a passionate Full Stack Developer focused on creating
+            high-performance websites and applications with elegant
+            interfaces and immersive user experiences.
+          </p>
+
+          <p>
+            My goal is to combine clean code with modern design and
+            powerful interactions.
+          </p>
+        </div>
+
+        <div class="stats">
+
+          <div class="stat-card">
+            <h3 class="counter" data-target="25">0</h3>
+            <p>Projects</p>
+          </div>
+
+          <div class="stat-card">
+            <h3 class="counter" data-target="15">0</h3>
+            <p>Technologies</p>
+          </div>
+
+          <div class="stat-card">
+            <h3 class="counter" data-target="100">0</h3>
+            <p>Learning %</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+
+      <div class="section-title">
+        <span>02</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React.js</div>
+        <div class="skill-card">Node.js</div>
+        <div class="skill-card">Express.js</div>
+        <div class="skill-card">MongoDB</div>
+        <div class="skill-card">Git & GitHub</div>
+
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+
+      <div class="section-title">
+        <span>03</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card tilt">
+          <div class="project-number">01</div>
+          <h3>Portfolio Website</h3>
+          <p>
+            Modern animated portfolio with futuristic UI and interactions.
+          </p>
+
+          <div class="project-links">
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card tilt">
+          <div class="project-number">02</div>
+          <h3>MERN App</h3>
+          <p>
+            Full-stack application with authentication and database.
+          </p>
+
+          <div class="project-links">
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card tilt">
+          <div class="project-number">03</div>
+          <h3>Task Manager</h3>
+          <p>
+            Productivity app built with JavaScript and APIs.
+          </p>
+
+          <div class="project-links">
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+
+      <div class="section-title">
+        <span>04</span>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-box">
+
+        <h3>Let's Build Something Amazing</h3>
+
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea rows="5" placeholder="Message"></textarea>
+
+          <button type="submit" class="btn btn-primary">
+            Send Message
+          </button>
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
